@@ -6,3 +6,7 @@ _start:
 	mov bl , 2
 	not al
 	not bl
+	and al , bl
+	mov cl , al
+	or  cl , bl
+	xor al , bl
