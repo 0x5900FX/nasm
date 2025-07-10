@@ -1,0 +1,13 @@
+| Description                 | 64-bit Register | 8-bit Register |
+| --------------------------- | --------------- | -------------- |
+| Syscall Number/Return value | `rax`           | `al`           |
+| Callee Saved                | `rbx`           | `bl`           |
+| 1st arg                     | `rdi`           | `dil`          |
+| 2nd arg                     | `rsi`           | `sil`          |
+| 3rd arg                     | `rdx`           | `dl`           |
+| 4th arg                     | `rcx`           | `cl`           |
+
+
+
+; execve("/bin/sh", ["/bin/sh", NULL], NULL);
+
